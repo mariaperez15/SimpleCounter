@@ -7,7 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 	function Home (props){
 		return (
-			<div className="container bg-black text-white text"> 
+			<div className="container bg-black text-white text mx-auto"> 
 				<div className="uno" id="clock"><i class="fa-regular fa-clock"></i></div>
 				<div className="dos">{props.digitSix%10}</div>
 				<div className="tres">{props.digitFive%10}</div>

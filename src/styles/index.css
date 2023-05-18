@@ -13,13 +13,13 @@
 
 .container {
     display: flex;
-    padding: 0px;
     height: 150px;
     justify-content: center;
-    width: 100%;
     margin: 0%;
+    padding: 0%;
     
 }
+
 
 .container div{
     background: rgb(30, 29, 29);
