@@ -11,6 +11,10 @@
 
 */
 
+body{
+    background-color: black;
+}
+
 .container {
     display: flex;
     height: 150px;
@@ -20,9 +24,12 @@
     
 }
 
+#app{
+    margin-top: 20%;
+}
 
 .container div{
-    background: rgb(30, 29, 29);
+    background: rgba(248, 181, 225, 0.637);
     margin: 13px;
     width: 80px;
     border-radius: 15%;
@@ -32,7 +39,7 @@
 }
 
 #clock {
-    background: rgb(30, 29, 29);
+    background: rgba(248, 181, 225, 0.637);
     margin: 13px;
     width: 120px;
 }
